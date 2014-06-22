@@ -36,7 +36,7 @@ Install by FTP
 
 
 == Frequently Asked Questions ==
-Do you have questions or issues with Social Share Buttons? [Ask for support here.](http://wordpress.org/support/plugin/social-share-buttons)
+Do you have questions or issues with Social Share Buttons? [Ask for support here.](http://wordpress.org/support/plugin/sis-social-share)
 
 == Screenshots ==
 1. Screenshot of option page of Social Share Buttons
