@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Social Share Buttons
-Plugin URI: http://wordpress.org/plugins/social-share-buttons
+Plugin URI: http://wordpress.org/plugins/sis-social-share/
 Description: Add various social networking share buttons to your website, including Facebook, Twitter, digg, delicious, StumbleUpon, Pinterest and Linkedin.
 Version: 1.0
-Author: sayful
+Author: Sayful Islam
 Author URI: http://sayful.net
 License: GPLv2 or later
 */
