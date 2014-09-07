@@ -6,7 +6,7 @@ Description: Add various social networking share buttons to your website, includ
 Version: 1.0
 Author: Sayful Islam
 Author URI: http://sayful.net
-Text Domain: nivoslider
+Text Domain: socialsharebuttons
 Domain Path: /languages/
 License: GPLv2 or later
 */
