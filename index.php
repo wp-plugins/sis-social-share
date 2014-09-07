@@ -6,6 +6,8 @@ Description: Add various social networking share buttons to your website, includ
 Version: 1.0
 Author: Sayful Islam
 Author URI: http://sayful.net
+Text Domain: nivoslider
+Domain Path: /languages/
 License: GPLv2 or later
 */
 
@@ -34,6 +36,13 @@ function sis_social_share_check_WP_ver()
 }
 register_activation_hook( __FILE__, 'sis_social_share_check_WP_ver' );
 
+/**
+ * Load plugin textdomain.
+ */
+function sis_social_share_load_textdomain() {
+  load_plugin_textdomain( 'socialsharebuttons', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
+add_action( 'plugins_loaded', 'sis_social_share_load_textdomain' );
 
 //register settings
 function sis_social_share_settings_init(){
@@ -161,7 +170,7 @@ function sis_social_share_settings_page() {
 
 	?>
 	<div class="wrap">
-	    <h2><?php _e('Social Share Settings') ?></h2>
+	    <h2><?php _e('Social Share Settings', 'socialsharebuttons' ) ?></h2>
 
 		<form method="post" action="options.php">
 
