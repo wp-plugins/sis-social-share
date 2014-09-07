@@ -62,7 +62,6 @@ function sis_social_share_custom_style(){
 	$options = get_option( 'sis_social_share_settings' );
 	?><style>
 		#mysocilasharing{
-			max-width: 75px;
 			overflow: hidden;
 			display: block;
 			position: fixed;
@@ -73,6 +72,8 @@ function sis_social_share_custom_style(){
 		.button {
 		  display: block;
 		  margin: 5px 0;
+		  padding: 5px 10px;
+		  background: none;
 		}
 		.button.pinterest {
 		  	margin-top: 30px;
